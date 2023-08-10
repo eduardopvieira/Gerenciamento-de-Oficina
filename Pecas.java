@@ -1,4 +1,4 @@
-public class Peças {
+public class Pecas {
 
 	private int idItem; 
 	private String descricaoItem;
@@ -8,9 +8,9 @@ public class Peças {
 	private int unidadeMedidaItem;
 	
 	
-	public Peças(){}
+	public Pecas(){}
 	
-	public Peças(int idItem, String descricaoItem, String fabricante, double precoItem, double estoqueItem, int unidadeMedidaItem){
+	public Pecas(int idItem, String descricaoItem, String fabricante, double precoItem, double estoqueItem, int unidadeMedidaItem){
 		setIdItem(idItem);
 		setDescricaoItem(descricaoItem);
 		setFabricante(fabricante);
@@ -96,11 +96,7 @@ public class Peças {
 	
 	//----------------------------------------MAIN---------------------------------------------------
 	public static void main (String args[]) {
-		Peças p = new Peças(1, "peça foda", "fabricante foda", 2, 3, 4);
+		Pecas p = new Pecas(1, "peça daora", "fabricante daora", 2, 3, 4);
 		System.out.println(p.getFabricante());		
-	}
-
-
-	
-	
+	}	
 }
